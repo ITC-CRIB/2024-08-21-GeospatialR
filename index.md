@@ -89,16 +89,14 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
-<p align="center">
-  <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
-  </em>
+In this training workshop, organized by the Center of Expertise in Big Geodata Science (CRIB), participants will embark on a journey through the fundamentals of geospatial data analysis using R. With its excellent statistical capabilities and a huge package ecosystem, R supports transparent data analysis workflows with an emphasize on reproducible research. Geospatial R packages, such as sf, raster, and leaflet, enable complex geospatial studies and striking visualizations that facilitate getting insights from geospatial datasets. Join us to learn how to use R to access, analyze, and visualize spatial data!
+<br/>
+The workshop covers the following aspects:
+
+<ul>Opening, manipulating, and plotting vector and raster spatial data.</ul>
+<ul>Handling spatial metadata and Coordinate Reference Systems.</ul>
+<ul>Reprojecting spatial data and analyzing raster time series.</ul>
+
 </p>
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
